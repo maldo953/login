@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	background: #ddd
+}
+.form{
+	padding: 10px 10px;
+	width: 250px;
+	margin: auto;
+	margin-top: 100px;
+	background: #fff;
+}
+.form h1{
+	letter-spacing: 5px;
+	text-align: center;
+}
+.div{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.lbl{
+	z-index: 0;
+	font-size: 10px;
+	align-content: left;
+}
+.input{
+	padding: 5px;
+	font-size: 15px;
+	width: 100%;
+	border: none;
+	border-bottom: #333 1px solid;
+}
+.input:focus{
+	outline: none;
+}
+.btn{
+	width: 100%;
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+	background: #00CBB0;
+	color: #fff;
+	font-size: 15px;
+}
+.msj{
+	display: block;
+    border-radius: 3px;
+}
+.advertencia{
+	position: absolute;
+	padding: 5px;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	background: #FFC300;
+    color: #604900;
+}
+.success{
+	position: absolute;
+	padding: 5px;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	background: #26BF3A;
+    color: #183306;
+}
+.error{
+	position: absolute;
+	padding: 5px;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	background: #DF0000;
+    color: #FFDADA;
+}
